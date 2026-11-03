@@ -23,6 +23,23 @@
 2. 打开根目录的 `index.html`，即可浏览和搜索图标。
 3. 如浏览器限制本地 `file://` 文件下载，可使用 VS Code **Live Server** 在本地启动页面。
 
+## 🔗 开源 SVG 图标资源
+
+下面这些网站适合日常寻找并下载 SVG 图标，可按需挑选并加入本仓库。
+
+| 网站 | 适用场景 | 许可说明 |
+| --- | --- | --- |
+| [Lucide Icons](https://lucide.dev/icons) | 简洁线性图标、常用界面操作 | ISC |
+| [Tabler Icons](https://tabler.io/icons) | 大量通用网页图标、工具与商业场景 | MIT |
+| [Bootstrap Icons](https://icons.getbootstrap.com/) | Bootstrap 网站、界面控件 | MIT |
+| [Heroicons](https://heroicons.com/) | 导航、操作按钮、现代 UI | MIT |
+| [Remix Icon](https://remixicon.com/) | 线性与填充风格图标 | Remix Icon License v1.0（请查看最新条款） |
+| [Simple Icons](https://simpleicons.org/) | 技术平台与品牌标识 | 项目采用 CC0；品牌商标另行受保护 |
+
+**收集建议：** 优先从 Lucide、Tabler Icons 和 Bootstrap Icons 中寻找常用界面图标，保持视觉风格相对统一。下载后按本文的“新增或删除图标”步骤加入即可。
+
+**授权提醒：** 开源不等于无条件使用。将图标上传到公开 GitHub 仓库属于重新分发，应阅读对应项目的最新许可证，保留要求的版权或许可声明；品牌 Logo 还需注意商标权。特别是 Remix Icon 已更新为专用许可证，不应再简单视为 Apache 2.0。
+
 ## ➕ 新增或删除图标
 
 为了便于长期维护，图标文件与展示数据分开管理。
