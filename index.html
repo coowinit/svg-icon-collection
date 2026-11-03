@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="轻量级个人 SVG 图标收藏页：搜索、预览并下载原始 SVG 文件。">
+  <meta name="theme-color" content="#f7f9fc">
+  <title>SVG Icon Collection — 图标收藏</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/icons.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="brand"><div class="brand-mark" aria-hidden="true">✳</div><div><div class="brand-title">SVG Icon Collection</div><p class="brand-subtitle">我的 SVG 图标收藏</p></div></div>
+      <a class="github" href="https://github.com/coowinit" target="_blank" rel="noopener noreferrer" title="GitHub 个人主页；创建仓库后可替换为仓库地址"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 19c-4 1-4-2-6-2m12 4v-3a3 3 0 0 0-.8-2.3c2.8-.3 5.8-1.4 5.8-6.3a5 5 0 0 0-1.4-3.5 4.6 4.6 0 0 0-.1-3.5s-1.2-.4-3.6 1.4a12 12 0 0 0-6.5 0C6 2 4.8 2.4 4.8 2.4a4.6 4.6 0 0 0-.1 3.5A5 5 0 0 0 3.3 9.4c0 4.9 3 6 5.8 6.3A3 3 0 0 0 8.3 18v3"/></svg><span>GitHub</span></a>
+    </header>
+    <main>
+      <section class="intro" aria-label="项目介绍">
+        <div class="intro-copy">
+          <div class="eyebrow"><span class="dot"></span> GROWING SVG COLLECTION</div>
+          <h1>常用 SVG 图标，<span>持续收集更新。</span></h1>
+          <p>个人图标收藏仓库 · 集中整理国家旗标和常用图标，快速搜索、预览与下载。</p>
+        </div>
+        <div class="update-note" aria-label="持续维护说明">
+          <span class="update-note-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 1 0-2.2 5.5M20 4v7h-7"/><path d="M12 7v5l3 2"/></svg></span>
+          <span><strong>持续收藏 · 定期更新</strong><small>新图标会陆续加入这个仓库</small></span>
+        </div>
+      </section>
+      <section class="library" aria-label="图标收藏列表">
+        <div class="toolbar"><label class="search" for="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="搜索图标名称，例如 search、Japan、日本…" autocomplete="off"><kbd>/</kbd></label><div class="count"><strong id="shown-count">0</strong><span id="count-tail"> 个图标</span></div></div>
+        <div id="icons" class="icon-grid"></div>
+        <div id="empty" class="empty" hidden><div class="empty-mark">⌕</div><h2>没有找到匹配的图标</h2><p>尝试其他关键词，或清除搜索条件。</p><button type="button" id="clear-search">清除搜索</button></div>
+      </section>
+    </main>
+    <footer class="footer"><span>SVG Icon Collection <span class="sep">·</span> v1.0.0</span><span>静态 HTML · 无需数据库 · 原文件下载</span></footer>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
