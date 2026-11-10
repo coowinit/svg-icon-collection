@@ -275,6 +275,8 @@ const ICONS = [
     "name": "Cart",
     "keywords": "cart"
   },
+  {"file":"cart-shopping-regular.svg","name":"Cart Shopping Regular","keywords":"购物车 线框 镂空 outline regular shopping cart Font Awesome"},
+  {"file":"cart-shopping-solid.svg","name":"Cart Shopping Solid","keywords":"购物车 实心 填充 filled solid shopping cart Font Awesome"},
   {
     "file": "package.svg",
     "name": "Package",
