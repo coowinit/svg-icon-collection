@@ -57,6 +57,14 @@
 - **商标提醒：** Simple Icons 项目声明 CC0，但**不代表每个标志自身都没有版权或商标限制**。下载后应用于商业网站、营销材料或产品时，需要遵守对应品牌的商标和使用指南；不得暗示与品牌的合作、授权或背书。
 - **维护：** 品牌更新、更名或使用规则变化时，优先查阅原品牌官网和 Simple Icons 的最新资料，必要时更新或移除素材。
 
+## 🛒 Font Awesome 购物车图标
+
+新增 `cart-shopping-regular.svg`（线框）和 `cart-shopping-solid.svg`（实心）。两者来自用户提供的 **Font Awesome Free 7.3.1** SVG，原文件中的作者、版权和许可链接注释已保留。可在在线预览页搜索 `cart-shopping` 或「购物车」下载。
+
+- 来源：[Font Awesome](https://fontawesome.com/icons/cart-shopping)；作者：Fonticons, Inc.
+- 授权信息：[Font Awesome Free License](https://fontawesome.com/license/free)（图标按 CC BY 4.0 授权；字体和代码可能采用其他许可）。使用与再分发时请按许可要求保留适用署名和版权信息。
+- 原有 `cart.svg` 保留不变。这两个文件为第三方素材，不属于仓库原创线性图标。
+
 ## ➕ 新增或删除图标
 
 为了便于长期维护，图标文件与展示数据分开管理。
